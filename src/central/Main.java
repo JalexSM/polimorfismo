@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 import animales.Animal;
 import animales.Perro;
+import geometria.Figura;
+import geometria.Rectangulo;
 
 
 
@@ -49,7 +51,7 @@ public class Main {
 					 ejercicio1();
 					break;
 				case 2:
-					 //ejercicio2();
+					 ejercicio2();
 					break;
 				case 3:
 					// ejercicio3();
@@ -105,6 +107,15 @@ public class Main {
 	
 	
 	
+	public static void ejercicio2() {
+		
+		Figura rec1 = new Rectangulo(22.5,2.5);
+		
+		rec1.calcularArea();
+		
+		
+		
+	}
 	
 	
 	
