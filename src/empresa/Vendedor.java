@@ -4,8 +4,8 @@ public class Vendedor extends Empleado{
 	
 	 private double comision;
 
-	 public Vendedor(String nombre, double salario, double comision) {
-		super(nombre, salario);
+	 public Vendedor(String nombre,double comision) {
+		super(nombre);
 		this.comision = comision;
 	 }
 

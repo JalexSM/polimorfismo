@@ -4,6 +4,10 @@ import java.util.Scanner;
 
 import animales.Animal;
 import animales.Perro;
+import cuentas.Cuenta;
+import cuentas.CuentaAhorro;
+import empresa.Empleado;
+import empresa.Vendedor;
 import geometria.Figura;
 import geometria.Rectangulo;
 
@@ -54,11 +58,10 @@ public class Main {
 					 ejercicio2();
 					break;
 				case 3:
-					// ejercicio3();
-
+					 ejercicio3();
 					break;
 				case 4:
-					// ejercicio4();
+					 ejercicio4();
 					break;
 				case 5:
 					//ejercicio5();
@@ -117,9 +120,23 @@ public class Main {
 		
 	}
 	
+	public static void ejercicio3() {
+		
+		Empleado vendor1 = new Vendedor ("alexander",75000.00);
+		vendor1.resumen();
+		
+		
+		
+	}
+		
 	
-	
-	
+	public static void ejercicio4() {
+		
+		Cuenta cuenta1 = new CuentaAhorro(2000);
+		cuenta1.depositar(100);
+		
+		
+	}
 	
 	
 	
