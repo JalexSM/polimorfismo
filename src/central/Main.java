@@ -2,6 +2,8 @@ package central;
 
 import java.util.Scanner;
 
+import academico.Estudiante;
+import academico.Persona;
 import animales.Animal;
 import animales.Perro;
 import cuentas.Cuenta;
@@ -151,7 +153,13 @@ public class Main {
 	}
 	
 	
-	
+	public static void ejercicio6() {
+		
+		Persona est1 = new Estudiante("312312","ing. sistemas");
+		est1.presentarse();
+		
+		
+	}
 	
 	
 	
