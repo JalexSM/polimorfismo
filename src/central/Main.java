@@ -14,6 +14,8 @@ import geometria.Figura;
 import geometria.Rectangulo;
 import movilidad.Motocicleta;
 import movilidad.Vehiculo;
+import productos.Producto;
+import productos.ProductoDigital;
 import vehiculos.Avion;
 import vehiculos.Transporte;
 
@@ -76,7 +78,7 @@ public class Main {
 					ejercicio6();
 					break;
 				case 7:
-					//ejercicio7();
+					ejercicio7();
 					break;
 				case 8:
 					//ejercicio8();
@@ -172,6 +174,27 @@ public class Main {
 		
 	}
 	
-	
+	public static void ejercicio8() {
+		
+        Producto prod1 = new ProductoDigital("Curso de Java", 150.0, "PDF");
 
+        prod1.mostrarDescripcion();
+	
+		
+		
+		
+	}
+
+	
+	public static void ejercicio9() {
+		
+	}
+	
+	public static void ejercicio10() {
+		
+	}
+	
+	
+	
+	
 }
