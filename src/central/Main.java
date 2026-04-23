@@ -27,6 +27,31 @@ import vehiculos.Transporte;
 
 
 /* 
+Cómo apliqué herencia:
+Utilicé la palabra clave extends para crear clases hijas a partir de clases base.
+Las clases hijas heredan atributos y métodos de la clase padre.
+Luego se especializan según el caso.
+
+Qué métodos sobrescribí:
+Se sobrescribieron métodos en todas las clases hijas usando @Override.
+hacerSonido() en Perro
+area() en Rectangulo
+resumen() en Vendedor
+depositar() en CuentaAhorro
+moverse() en Avion
+presentarse() en Estudiante
+encender() en Motocicleta
+mostrarDescripcion() en ProductoDigital
+tocar() en Guitarra
+calcularPago() en TrabajadorPorHora
+
+Casos de prueba utilizados:
+En el método main se crearon objetos de las clases hijas.
+Se almacenaron en variables del tipo de la clase padre.
+Luego se llamaron los métodos sobrescritos para comprobar el polimorfismo.
+Se verifica que se ejecuta el método del objeto real y no el del tipo de referencia.
+Ejemplo: Animal a = new Perro();
+a.hacerSonido(); ejecuta el método de Perro.
 
 
 
