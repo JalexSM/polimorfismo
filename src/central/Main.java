@@ -18,6 +18,8 @@ import musica.Guitarra;
 import musica.Instrumento;
 import productos.Producto;
 import productos.ProductoDigital;
+import trabajo.TrabajadoPorHora;
+import trabajo.Trabajador;
 import vehiculos.Avion;
 import vehiculos.Transporte;
 
@@ -83,13 +85,13 @@ public class Main {
 					ejercicio7();
 					break;
 				case 8:
-					//ejercicio8();
+					ejercicio8();
 					break;
 				case 9:
-					//ejercicio9();
+					ejercicio9();
 					break;
 				case 10:
-					//ejercicio10();
+					ejercicio10();
 					break;
 				case 11:
 					System.out.println("saliendo ... ");
@@ -196,6 +198,9 @@ public class Main {
 	}
 	
 	public static void ejercicio10() {
+		
+		Trabajador trabajador = new TrabajadoPorHora (40, 25.5);
+        System.out.println("Pago total: Q" + trabajador.calcularPago());
 		
 	}
 	
