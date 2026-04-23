@@ -14,6 +14,8 @@ import geometria.Figura;
 import geometria.Rectangulo;
 import movilidad.Motocicleta;
 import movilidad.Vehiculo;
+import musica.Guitarra;
+import musica.Instrumento;
 import productos.Producto;
 import productos.ProductoDigital;
 import vehiculos.Avion;
@@ -22,7 +24,7 @@ import vehiculos.Transporte;
 
 
 
-/*
+/* 
 
 
 
@@ -187,7 +189,10 @@ public class Main {
 
 	
 	public static void ejercicio9() {
-		
+		 Instrumento Guit1 = new Guitarra();
+		 Guit1.tocar();
+		 
+		 
 	}
 	
 	public static void ejercicio10() {
