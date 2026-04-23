@@ -12,6 +12,8 @@ import empresa.Empleado;
 import empresa.Vendedor;
 import geometria.Figura;
 import geometria.Rectangulo;
+import movilidad.Motocicleta;
+import movilidad.Vehiculo;
 import vehiculos.Avion;
 import vehiculos.Transporte;
 
@@ -71,7 +73,7 @@ public class Main {
 					ejercicio5();
 					break;
 				case 6:
-					//ejercicio6();
+					ejercicio6();
 					break;
 				case 7:
 					//ejercicio7();
@@ -161,7 +163,14 @@ public class Main {
 		
 	}
 	
-	
+	public static void ejercicio7() {
+		
+		
+		Vehiculo vehi1 = new Motocicleta();
+		vehi1.encender();
+		
+		
+	}
 	
 	
 
